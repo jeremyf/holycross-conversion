@@ -16,8 +16,6 @@ def init_db(force = false)
       table.column :conductor_asset_id, :integer
       table.column :local_filename, :text
     end
-    add_index :assets, :post_id
-
   end
 end
 
